@@ -64,17 +64,3 @@ class Handphone extends Tablet {
 $hp = new Handphone("RedmiA5", "Xiaomi", 8, 3);
 echo $hp->getInfoProduk();
 
-/*
-Output : 
-Nama : S10
-Merk : Samsung
-Camera : 16 Gb
-Memory : 8 Mp
-
-Penjelasan :
-Karena property pada kelas parent memiliki Visibility private, maka untuk mengakses propery parent (Tablet) pada
-kelas child (Handphone) maupun diluar kelas Tablet tidak akan dapat dilakukan dan hanya dapat dilakukan jika menggunakan
-metode setter dan getter. 
-
-Karena Property dengan Visibility private hanya dapat diakses dari dalam class tersebut.
-*/
